@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7595AE362B8A8177006BD962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE352B8A8177006BD962 /* AppDelegate.swift */; };
+		7595AE382B8A8177006BD962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE372B8A8177006BD962 /* SceneDelegate.swift */; };
+		7595AE3A2B8A8177006BD962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE392B8A8177006BD962 /* ViewController.swift */; };
+		7595AE3D2B8A8177006BD962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7595AE3B2B8A8177006BD962 /* Main.storyboard */; };
+		7595AE3F2B8A8179006BD962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7595AE3E2B8A8179006BD962 /* Assets.xcassets */; };
+		7595AE422B8A8179006BD962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7595AE402B8A8179006BD962 /* LaunchScreen.storyboard */; };
+		7595AE4D2B8A8179006BD962 /* Mobikwik_AssingmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE4C2B8A8179006BD962 /* Mobikwik_AssingmentTests.swift */; };
+		7595AE572B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE562B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift */; };
+		7595AE592B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE582B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7595AE492B8A8179006BD962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7595AE2A2B8A8177006BD962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7595AE312B8A8177006BD962;
+			remoteInfo = "Mobikwik Assingment";
+		};
+		7595AE532B8A8179006BD962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7595AE2A2B8A8177006BD962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7595AE312B8A8177006BD962;
+			remoteInfo = "Mobikwik Assingment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7595AE322B8A8177006BD962 /* Mobikwik Assingment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobikwik Assingment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7595AE352B8A8177006BD962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7595AE372B8A8177006BD962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7595AE392B8A8177006BD962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7595AE3C2B8A8177006BD962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7595AE3E2B8A8179006BD962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7595AE412B8A8179006BD962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7595AE432B8A8179006BD962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7595AE482B8A8179006BD962 /* Mobikwik AssingmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobikwik AssingmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7595AE4C2B8A8179006BD962 /* Mobikwik_AssingmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobikwik_AssingmentTests.swift; sourceTree = "<group>"; };
+		7595AE522B8A8179006BD962 /* Mobikwik AssingmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobikwik AssingmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7595AE562B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobikwik_AssingmentUITests.swift; sourceTree = "<group>"; };
+		7595AE582B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobikwik_AssingmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7595AE2F2B8A8177006BD962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7595AE452B8A8179006BD962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7595AE4F2B8A8179006BD962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7595AE292B8A8177006BD962 = {
+			isa = PBXGroup;
+			children = (
+				7595AE342B8A8177006BD962 /* Mobikwik Assingment */,
+				7595AE4B2B8A8179006BD962 /* Mobikwik AssingmentTests */,
+				7595AE552B8A8179006BD962 /* Mobikwik AssingmentUITests */,
+				7595AE332B8A8177006BD962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7595AE332B8A8177006BD962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7595AE322B8A8177006BD962 /* Mobikwik Assingment.app */,
+				7595AE482B8A8179006BD962 /* Mobikwik AssingmentTests.xctest */,
+				7595AE522B8A8179006BD962 /* Mobikwik AssingmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7595AE342B8A8177006BD962 /* Mobikwik Assingment */ = {
+			isa = PBXGroup;
+			children = (
+				7595AE352B8A8177006BD962 /* AppDelegate.swift */,
+				7595AE372B8A8177006BD962 /* SceneDelegate.swift */,
+				7595AE392B8A8177006BD962 /* ViewController.swift */,
+				7595AE3B2B8A8177006BD962 /* Main.storyboard */,
+				7595AE3E2B8A8179006BD962 /* Assets.xcassets */,
+				7595AE402B8A8179006BD962 /* LaunchScreen.storyboard */,
+				7595AE432B8A8179006BD962 /* Info.plist */,
+			);
+			path = "Mobikwik Assingment";
+			sourceTree = "<group>";
+		};
+		7595AE4B2B8A8179006BD962 /* Mobikwik AssingmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				7595AE4C2B8A8179006BD962 /* Mobikwik_AssingmentTests.swift */,
+			);
+			path = "Mobikwik AssingmentTests";
+			sourceTree = "<group>";
+		};
+		7595AE552B8A8179006BD962 /* Mobikwik AssingmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7595AE562B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift */,
+				7595AE582B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift */,
+			);
+			path = "Mobikwik AssingmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7595AE312B8A8177006BD962 /* Mobikwik Assingment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7595AE5C2B8A8179006BD962 /* Build configuration list for PBXNativeTarget "Mobikwik Assingment" */;
+			buildPhases = (
+				7595AE2E2B8A8177006BD962 /* Sources */,
+				7595AE2F2B8A8177006BD962 /* Frameworks */,
+				7595AE302B8A8177006BD962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobikwik Assingment";
+			productName = "Mobikwik Assingment";
+			productReference = 7595AE322B8A8177006BD962 /* Mobikwik Assingment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7595AE472B8A8179006BD962 /* Mobikwik AssingmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7595AE5F2B8A8179006BD962 /* Build configuration list for PBXNativeTarget "Mobikwik AssingmentTests" */;
+			buildPhases = (
+				7595AE442B8A8179006BD962 /* Sources */,
+				7595AE452B8A8179006BD962 /* Frameworks */,
+				7595AE462B8A8179006BD962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7595AE4A2B8A8179006BD962 /* PBXTargetDependency */,
+			);
+			name = "Mobikwik AssingmentTests";
+			productName = "Mobikwik AssingmentTests";
+			productReference = 7595AE482B8A8179006BD962 /* Mobikwik AssingmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7595AE512B8A8179006BD962 /* Mobikwik AssingmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7595AE622B8A8179006BD962 /* Build configuration list for PBXNativeTarget "Mobikwik AssingmentUITests" */;
+			buildPhases = (
+				7595AE4E2B8A8179006BD962 /* Sources */,
+				7595AE4F2B8A8179006BD962 /* Frameworks */,
+				7595AE502B8A8179006BD962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7595AE542B8A8179006BD962 /* PBXTargetDependency */,
+			);
+			name = "Mobikwik AssingmentUITests";
+			productName = "Mobikwik AssingmentUITests";
+			productReference = 7595AE522B8A8179006BD962 /* Mobikwik AssingmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7595AE2A2B8A8177006BD962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7595AE312B8A8177006BD962 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7595AE472B8A8179006BD962 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7595AE312B8A8177006BD962;
+					};
+					7595AE512B8A8179006BD962 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7595AE312B8A8177006BD962;
+					};
+				};
+			};
+			buildConfigurationList = 7595AE2D2B8A8177006BD962 /* Build configuration list for PBXProject "Mobikwik Assingment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7595AE292B8A8177006BD962;
+			productRefGroup = 7595AE332B8A8177006BD962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7595AE312B8A8177006BD962 /* Mobikwik Assingment */,
+				7595AE472B8A8179006BD962 /* Mobikwik AssingmentTests */,
+				7595AE512B8A8179006BD962 /* Mobikwik AssingmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7595AE302B8A8177006BD962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7595AE422B8A8179006BD962 /* LaunchScreen.storyboard in Resources */,
+				7595AE3F2B8A8179006BD962 /* Assets.xcassets in Resources */,
+				7595AE3D2B8A8177006BD962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7595AE462B8A8179006BD962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7595AE502B8A8179006BD962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7595AE2E2B8A8177006BD962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7595AE3A2B8A8177006BD962 /* ViewController.swift in Sources */,
+				7595AE362B8A8177006BD962 /* AppDelegate.swift in Sources */,
+				7595AE382B8A8177006BD962 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7595AE442B8A8179006BD962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7595AE4D2B8A8179006BD962 /* Mobikwik_AssingmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7595AE4E2B8A8179006BD962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7595AE592B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift in Sources */,
+				7595AE572B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7595AE4A2B8A8179006BD962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7595AE312B8A8177006BD962 /* Mobikwik Assingment */;
+			targetProxy = 7595AE492B8A8179006BD962 /* PBXContainerItemProxy */;
+		};
+		7595AE542B8A8179006BD962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7595AE312B8A8177006BD962 /* Mobikwik Assingment */;
+			targetProxy = 7595AE532B8A8179006BD962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7595AE3B2B8A8177006BD962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7595AE3C2B8A8177006BD962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7595AE402B8A8179006BD962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7595AE412B8A8179006BD962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7595AE5A2B8A8179006BD962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7595AE5B2B8A8179006BD962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7595AE5D2B8A8179006BD962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DYRJ66PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobikwik Assingment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-Assingment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7595AE5E2B8A8179006BD962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DYRJ66PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobikwik Assingment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-Assingment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7595AE602B8A8179006BD962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DYRJ66PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-AssingmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobikwik Assingment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobikwik Assingment";
+			};
+			name = Debug;
+		};
+		7595AE612B8A8179006BD962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DYRJ66PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-AssingmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobikwik Assingment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobikwik Assingment";
+			};
+			name = Release;
+		};
+		7595AE632B8A8179006BD962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DYRJ66PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-AssingmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobikwik Assingment";
+			};
+			name = Debug;
+		};
+		7595AE642B8A8179006BD962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DYRJ66PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-AssingmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobikwik Assingment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7595AE2D2B8A8177006BD962 /* Build configuration list for PBXProject "Mobikwik Assingment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7595AE5A2B8A8179006BD962 /* Debug */,
+				7595AE5B2B8A8179006BD962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7595AE5C2B8A8179006BD962 /* Build configuration list for PBXNativeTarget "Mobikwik Assingment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7595AE5D2B8A8179006BD962 /* Debug */,
+				7595AE5E2B8A8179006BD962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7595AE5F2B8A8179006BD962 /* Build configuration list for PBXNativeTarget "Mobikwik AssingmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7595AE602B8A8179006BD962 /* Debug */,
+				7595AE612B8A8179006BD962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7595AE622B8A8179006BD962 /* Build configuration list for PBXNativeTarget "Mobikwik AssingmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7595AE632B8A8179006BD962 /* Debug */,
+				7595AE642B8A8179006BD962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7595AE2A2B8A8177006BD962 /* Project object */;
+}
