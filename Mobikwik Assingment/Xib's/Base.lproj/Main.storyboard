@@ -82,6 +82,48 @@
             </objects>
             <point key="canvasLocation" x="1066.4122137404579" y="3.5211267605633805"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Wjk-1L-Ykw">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="8ij-gu-s0Z" customClass="DetailViewController" customModule="Mobikwik_Assingment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Df7-lU-2B5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="T7i-MG-upL">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="h10-xk-KoN">
+                                        <rect key="frame" x="30" y="30" width="333" height="699"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="h10-xk-KoN" secondAttribute="trailing" constant="30" id="2MN-27-5jx"/>
+                                    <constraint firstItem="h10-xk-KoN" firstAttribute="leading" secondItem="T7i-MG-upL" secondAttribute="leading" constant="30" id="AxV-zf-HVd"/>
+                                    <constraint firstAttribute="bottom" secondItem="h10-xk-KoN" secondAttribute="bottom" constant="30" id="EqG-y8-nNY"/>
+                                    <constraint firstItem="h10-xk-KoN" firstAttribute="top" secondItem="T7i-MG-upL" secondAttribute="top" constant="30" id="MuM-DC-sE5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CQk-87-Lw9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CQk-87-Lw9" firstAttribute="bottom" secondItem="T7i-MG-upL" secondAttribute="bottom" id="4tH-ss-LSF"/>
+                            <constraint firstItem="T7i-MG-upL" firstAttribute="top" secondItem="CQk-87-Lw9" secondAttribute="top" id="YfY-g4-hCw"/>
+                            <constraint firstItem="CQk-87-Lw9" firstAttribute="trailing" secondItem="T7i-MG-upL" secondAttribute="trailing" id="nRR-XF-6hB"/>
+                            <constraint firstItem="T7i-MG-upL" firstAttribute="leading" secondItem="CQk-87-Lw9" secondAttribute="leading" id="q3e-U7-oBG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="h10-xk-KoN" id="sSP-Ip-Dko"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8W-yV-WvG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2096" y="-23"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="t5O-Se-dAD">
             <objects>

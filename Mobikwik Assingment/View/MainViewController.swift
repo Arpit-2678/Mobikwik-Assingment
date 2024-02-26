@@ -103,6 +103,7 @@ class MainViewController: UIViewController {
             loadingIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             loadingIndicator.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -20)
         ])
+        navigationController?.delegate = self
     }
     
     
@@ -186,6 +187,15 @@ extension MainViewController : UICollectionViewDataSource {
 //MARK: - CollectionView Delegate Functions
 extension MainViewController : UICollectionViewDelegate {
     
+    /* Due to time limit not able to complete the logic of Bonus part */
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.searchBar.endEditing(true)
+//        let selectedPhoto = imagesArray?[indexPath.item]
+//        let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+//        detailVC.image = selectedPhoto
+//        navigationController?.pushViewController(detailVC, animated: true)
+    }
 }
 
 //MARK: - CollectionView Flow Layout Functions
@@ -220,5 +230,15 @@ extension MainViewController : UIScrollViewDelegate {
                 photosViewModel.fetchPhotos(pageNo: currentPageNumber, 30, searchText: searchText)
             }
         }
+    }
+}
+
+//MARK: - NavigationControllerDelegate Functions
+extension MainViewController: UINavigationControllerDelegate {
+    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        if toVC is DetailViewController {
+            return DetailTransitionAnimator()
+        }
+        return nil
     }
 }
