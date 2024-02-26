@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445B08496E9C0985AF665A3D /* Pods_Mobikwik_Assingment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9CB42277F532999524AD6B /* Pods_Mobikwik_Assingment.framework */; };
+		754FD0C52B8B75E600940834 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FD0C42B8B75E600940834 /* Observable.swift */; };
+		754FD0C82B8B777100940834 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FD0C72B8B777100940834 /* PhotosModel.swift */; };
+		754FD0CB2B8BB55C00940834 /* ImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FD0CA2B8BB55C00940834 /* ImagesViewModel.swift */; };
+		757BB08B2B8BC1E8002B4B8C /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757BB0892B8BC1E8002B4B8C /* ImageCollectionViewCell.swift */; };
 		7595AE362B8A8177006BD962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE352B8A8177006BD962 /* AppDelegate.swift */; };
 		7595AE382B8A8177006BD962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE372B8A8177006BD962 /* SceneDelegate.swift */; };
-		7595AE3A2B8A8177006BD962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE392B8A8177006BD962 /* ViewController.swift */; };
+		7595AE3A2B8A8177006BD962 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE392B8A8177006BD962 /* MainViewController.swift */; };
 		7595AE3D2B8A8177006BD962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7595AE3B2B8A8177006BD962 /* Main.storyboard */; };
 		7595AE3F2B8A8179006BD962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7595AE3E2B8A8179006BD962 /* Assets.xcassets */; };
 		7595AE422B8A8179006BD962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7595AE402B8A8179006BD962 /* LaunchScreen.storyboard */; };
 		7595AE4D2B8A8179006BD962 /* Mobikwik_AssingmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE4C2B8A8179006BD962 /* Mobikwik_AssingmentTests.swift */; };
 		7595AE572B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE562B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift */; };
 		7595AE592B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595AE582B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift */; };
+		75FA83112B8B5EC60008FEF1 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA83102B8B5EC60008FEF1 /* PhotosViewModel.swift */; };
+		75FA83162B8B64450008FEF1 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA83152B8B64450008FEF1 /* NetworkManager.m */; };
+		75FA83192B8B66A20008FEF1 /* APIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA83182B8B66A20008FEF1 /* APIConstants.m */; };
+		75FA831C2B8B67350008FEF1 /* APIEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA831B2B8B67350008FEF1 /* APIEndpoints.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06EA3DC2EF1F28C1F906FDA2 /* Pods-Mobikwik Assingment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobikwik Assingment.release.xcconfig"; path = "Target Support Files/Pods-Mobikwik Assingment/Pods-Mobikwik Assingment.release.xcconfig"; sourceTree = "<group>"; };
+		09027AD8D2FC42CDF67EB67A /* Pods-Mobikwik Assingment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobikwik Assingment.debug.xcconfig"; path = "Target Support Files/Pods-Mobikwik Assingment/Pods-Mobikwik Assingment.debug.xcconfig"; sourceTree = "<group>"; };
+		754FD0C42B8B75E600940834 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		754FD0C72B8B777100940834 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		754FD0CA2B8BB55C00940834 /* ImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewModel.swift; sourceTree = "<group>"; };
+		757BB0892B8BC1E8002B4B8C /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		7595AE322B8A8177006BD962 /* Mobikwik Assingment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobikwik Assingment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7595AE352B8A8177006BD962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7595AE372B8A8177006BD962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7595AE392B8A8177006BD962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7595AE392B8A8177006BD962 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7595AE3C2B8A8177006BD962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7595AE3E2B8A8179006BD962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7595AE412B8A8179006BD962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,15 @@
 		7595AE522B8A8179006BD962 /* Mobikwik AssingmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobikwik AssingmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7595AE562B8A8179006BD962 /* Mobikwik_AssingmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobikwik_AssingmentUITests.swift; sourceTree = "<group>"; };
 		7595AE582B8A8179006BD962 /* Mobikwik_AssingmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobikwik_AssingmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75FA83102B8B5EC60008FEF1 /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		75FA83132B8B64220008FEF1 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		75FA83142B8B64450008FEF1 /* Mobikwik Assingment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobikwik Assingment-Bridging-Header.h"; sourceTree = "<group>"; };
+		75FA83152B8B64450008FEF1 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		75FA83172B8B66930008FEF1 /* APIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConstants.h; sourceTree = "<group>"; };
+		75FA83182B8B66A20008FEF1 /* APIConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIConstants.m; sourceTree = "<group>"; };
+		75FA831A2B8B67250008FEF1 /* APIEndpoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIEndpoints.h; sourceTree = "<group>"; };
+		75FA831B2B8B67350008FEF1 /* APIEndpoints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIEndpoints.m; sourceTree = "<group>"; };
+		AA9CB42277F532999524AD6B /* Pods_Mobikwik_Assingment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobikwik_Assingment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445B08496E9C0985AF665A3D /* Pods_Mobikwik_Assingment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		393561862FE76D5EBDD0343D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09027AD8D2FC42CDF67EB67A /* Pods-Mobikwik Assingment.debug.xcconfig */,
+				06EA3DC2EF1F28C1F906FDA2 /* Pods-Mobikwik Assingment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		754FD0C62B8B761D00940834 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75FA83102B8B5EC60008FEF1 /* PhotosViewModel.swift */,
+				754FD0CA2B8BB55C00940834 /* ImagesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		754FD0C92B8B777700940834 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				754FD0C72B8B777100940834 /* PhotosModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		757BB08F2B8C7424002B4B8C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				754FD0C42B8B75E600940834 /* Observable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		757BB0902B8C7456002B4B8C /* Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				7595AE3B2B8A8177006BD962 /* Main.storyboard */,
+				7595AE402B8A8179006BD962 /* LaunchScreen.storyboard */,
+			);
+			path = "Xib's";
+			sourceTree = "<group>";
+		};
 		7595AE292B8A8177006BD962 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +151,8 @@
 				7595AE4B2B8A8179006BD962 /* Mobikwik AssingmentTests */,
 				7595AE552B8A8179006BD962 /* Mobikwik AssingmentUITests */,
 				7595AE332B8A8177006BD962 /* Products */,
+				393561862FE76D5EBDD0343D /* Pods */,
+				83AD05FD54E5D564CD1A0EBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +171,13 @@
 			children = (
 				7595AE352B8A8177006BD962 /* AppDelegate.swift */,
 				7595AE372B8A8177006BD962 /* SceneDelegate.swift */,
-				7595AE392B8A8177006BD962 /* ViewController.swift */,
-				7595AE3B2B8A8177006BD962 /* Main.storyboard */,
+				757BB0902B8C7456002B4B8C /* Xib's */,
+				75FA83122B8B62CD0008FEF1 /* Networking */,
+				754FD0C92B8B777700940834 /* Model */,
+				7595AE692B8B3CB3006BD962 /* View */,
+				754FD0C62B8B761D00940834 /* ViewModel */,
+				757BB08F2B8C7424002B4B8C /* Utilities */,
 				7595AE3E2B8A8179006BD962 /* Assets.xcassets */,
-				7595AE402B8A8179006BD962 /* LaunchScreen.storyboard */,
 				7595AE432B8A8179006BD962 /* Info.plist */,
 			);
 			path = "Mobikwik Assingment";
@@ -127,6 +200,37 @@
 			path = "Mobikwik AssingmentUITests";
 			sourceTree = "<group>";
 		};
+		7595AE692B8B3CB3006BD962 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7595AE392B8A8177006BD962 /* MainViewController.swift */,
+				757BB0892B8BC1E8002B4B8C /* ImageCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75FA83122B8B62CD0008FEF1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				75FA83132B8B64220008FEF1 /* NetworkManager.h */,
+				75FA83152B8B64450008FEF1 /* NetworkManager.m */,
+				75FA83142B8B64450008FEF1 /* Mobikwik Assingment-Bridging-Header.h */,
+				75FA83172B8B66930008FEF1 /* APIConstants.h */,
+				75FA83182B8B66A20008FEF1 /* APIConstants.m */,
+				75FA831A2B8B67250008FEF1 /* APIEndpoints.h */,
+				75FA831B2B8B67350008FEF1 /* APIEndpoints.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		83AD05FD54E5D564CD1A0EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9CB42277F532999524AD6B /* Pods_Mobikwik_Assingment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7595AE5C2B8A8179006BD962 /* Build configuration list for PBXNativeTarget "Mobikwik Assingment" */;
 			buildPhases = (
+				4A538C26CC47264E2C428706 /* [CP] Check Pods Manifest.lock */,
 				7595AE2E2B8A8177006BD962 /* Sources */,
 				7595AE2F2B8A8177006BD962 /* Frameworks */,
 				7595AE302B8A8177006BD962 /* Resources */,
@@ -195,6 +300,7 @@
 				TargetAttributes = {
 					7595AE312B8A8177006BD962 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					7595AE472B8A8179006BD962 = {
 						CreatedOnToolsVersion = 15.2;
@@ -253,13 +359,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A538C26CC47264E2C428706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobikwik Assingment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7595AE2E2B8A8177006BD962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7595AE3A2B8A8177006BD962 /* ViewController.swift in Sources */,
+				754FD0C52B8B75E600940834 /* Observable.swift in Sources */,
+				757BB08B2B8BC1E8002B4B8C /* ImageCollectionViewCell.swift in Sources */,
+				75FA83192B8B66A20008FEF1 /* APIConstants.m in Sources */,
+				754FD0C82B8B777100940834 /* PhotosModel.swift in Sources */,
+				7595AE3A2B8A8177006BD962 /* MainViewController.swift in Sources */,
+				75FA83112B8B5EC60008FEF1 /* PhotosViewModel.swift in Sources */,
 				7595AE362B8A8177006BD962 /* AppDelegate.swift in Sources */,
+				75FA831C2B8B67350008FEF1 /* APIEndpoints.m in Sources */,
+				75FA83162B8B64450008FEF1 /* NetworkManager.m in Sources */,
+				754FD0CB2B8BB55C00940834 /* ImagesViewModel.swift in Sources */,
 				7595AE382B8A8177006BD962 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +515,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -431,15 +571,18 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		7595AE5D2B8A8179006BD962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09027AD8D2FC42CDF67EB67A /* Pods-Mobikwik Assingment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J7DYRJ66PN;
@@ -457,7 +600,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-Assingment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mobikwik Assingment/Networking/Mobikwik Assingment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,9 +613,11 @@
 		};
 		7595AE5E2B8A8179006BD962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06EA3DC2EF1F28C1F906FDA2 /* Pods-Mobikwik Assingment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J7DYRJ66PN;
@@ -485,7 +635,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo.Mobikwik-Assingment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mobikwik Assingment/Networking/Mobikwik Assingment-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
